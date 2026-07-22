@@ -1,0 +1,43 @@
+/* element based selection */
+/* h1{
+    background-color:pink; */
+
+h2{
+    background-color:bisque;
+
+}
+
+/* id based selection */
+#first{
+    background-color:rgba(165, 42, 42, 0.5);
+}
+
+#second{
+    background-color:pink;
+}
+/* class based selection */
+
+/* .third{
+    background-color: blanchedalmond;
+} */
+
+/* grouping selection (can choose more than one element ) */
+
+h1, .fourth{
+    background-color: pink;
+}
+/* inherit styling  */
+ul{
+    font-size:20px;
+}
+li{
+    font-size:1em;
+}
+h2{
+    
+    font-family:"Playwrite NZ Basic Guides", cursive;
+    font-weight:400;
+    font-style:normal;
+}
+
+

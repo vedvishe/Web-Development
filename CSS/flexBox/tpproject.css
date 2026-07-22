@@ -1,0 +1,29 @@
+body{
+    margin:0%
+}
+.container{
+    display:flex;
+    justify-content:end;
+    background-color: aquamarine;
+    height:auto;
+    position:relative;
+    flex-wrap:wrap;
+    flex-direction:row;
+
+}
+.first{
+    margin:15px;
+
+}
+p{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif
+}
+#second{
+    flex-grow:1;
+    font-size: 30px;
+    font-style: italic;
+    position:absolute;
+    left:20px;
+
+}

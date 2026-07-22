@@ -1,0 +1,45 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+body{
+    background-color:black;
+}
+
+.container{
+
+    padding:20px;
+    position:relative;
+}
+
+.box{
+    background-color: red;
+    height:100px;
+    width:150px;
+    animation-name:moving;
+    animation-duration:4s;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-direction:alternate;
+    animation-delay:2s;
+
+
+
+}
+@keyframes moving{
+    from{
+        background-color:orange;
+        top:10px;
+        left:10px;
+
+    }
+    to{
+
+        background-color:blue;
+        top:10px;
+        left:1500px;
+        
+    }
+}

@@ -1,0 +1,43 @@
+*{
+    padding:0%;
+    margin:0%;
+
+}
+body{
+    background-color:black;
+    height:100vh;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    background-color:burlywood;
+    gap:10px;
+    padding:10px;
+
+
+}
+.box{
+    height:200px;
+    width:200px;
+    margin:10px;
+    
+}
+.first{
+    background-color:orange;
+
+}
+.second{
+    /* background-color:aqua; */
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.child{
+    height:100px;
+    background-color:red
+
+}
+
+/* .ch{ */
+    /* background-color:blue; */
+/*  */

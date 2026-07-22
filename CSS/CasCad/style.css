@@ -1,0 +1,19 @@
+h1{
+    background-color:aquamarine;
+}
+
+.classA{
+    background-color:pink;
+}
+
+#first{
+    background-color:green;
+}
+
+/* whenever we will access through the id , class, and straightly through the element  the id will get hight priority  */
+
+h2{
+    background-color:wheat !important;
+}
+/* the element will get more priority than inline css if it is written with the "important" keyword... */
+
