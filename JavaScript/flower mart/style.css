@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff5f8;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+p {
+    font-size: 18px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.flower {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.flower img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.flower img:hover {
+    transform: scale(1.05);
+}
+
+.flower h2 {
+    color: #c2185b;
+}
