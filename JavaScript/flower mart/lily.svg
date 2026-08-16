@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Lily flower illustration">
+  <rect width="400" height="400" fill="#fffafc"/>
+  <g transform="translate(0 10)">
+    <path d="M200 280 C185 240, 175 200, 200 150 C225 200, 215 240, 200 280 Z" fill="#c5e86c"/>
+    <path d="M200 280 C180 255, 145 260, 125 205 C160 200, 180 220, 200 280 Z" fill="#9adf5d"/>
+    <path d="M200 280 C220 255, 255 260, 275 205 C240 200, 220 220, 200 280 Z" fill="#9adf5d"/>
+    <ellipse cx="200" cy="170" rx="48" ry="26" fill="#f7d6f0"/>
+    <ellipse cx="175" cy="180" rx="36" ry="24" fill="#f2b9e4" transform="rotate(-25 175 180)"/>
+    <ellipse cx="225" cy="180" rx="36" ry="24" fill="#f2b9e4" transform="rotate(25 225 180)"/>
+    <ellipse cx="200" cy="150" rx="30" ry="24" fill="#f9e6f5"/>
+    <circle cx="200" cy="170" r="12" fill="#f6d24d"/>
+    <path d="M200 235 L200 350" stroke="#4caf50" stroke-width="7" stroke-linecap="round"/>
+    <path d="M200 300 C165 288, 150 260, 160 235 C185 245, 194 272, 200 300 Z" fill="#66bb6a"/>
+    <path d="M200 300 C235 288, 250 260, 240 235 C215 245, 206 272, 200 300 Z" fill="#66bb6a"/>
+    <path d="M160 240 C145 220, 130 215, 118 220 C134 230, 145 248, 160 240 Z" fill="#79d070"/>
+    <path d="M240 240 C255 220, 270 215, 282 220 C266 230, 255 248, 240 240 Z" fill="#79d070"/>
+  </g>
+</svg>
