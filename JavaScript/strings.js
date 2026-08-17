@@ -1,14 +1,14 @@
-// console.log("hello")
-// const name="vishakha";
-// console.log(name);
-// console.log(name.length);
-// const frds=("ved,rohit,yash");
-// console.log(frds.split(","));
+console.log("hello")
+const name="vishakha";
+console.log(name);
+console.log(name.length);
+const frds=("ved,rohit,yash");
+console.log(frds.split(","));
 
 
 
 
-//  date
+// date
 
 
 const now=new Date();
