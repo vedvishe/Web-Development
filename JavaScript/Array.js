@@ -67,11 +67,21 @@
 
 // asceding order
 
-const arr=[10 ,2 ,3, 45 ,60 ,55 ,80 ];
-arr.sort((a ,b)=>a-b);
-console.log(arr);
+// const arr=[10 ,2 ,3, 45 ,60 ,55 ,80 ];
+// arr.sort((a ,b)=>a-b);
+// console.log(arr);
 
-// Descending order
+// // Descending order
 
-arr.sort((a,b)=>b-a);
-console.log(arr);
+// arr.sort((a,b)=>b-a);
+// console.log(arr);
+
+
+// flatning the array
+
+const arr=[10,20,30,[80,90,100],40]
+// console.log(arr);
+console.log(arr[3][0]);
+console.log(arr[3][1]);
+const a=arr.flat(Infinity);
+console.log(a);
