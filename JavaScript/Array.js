@@ -47,7 +47,31 @@
 
 // concatination of array
 
-let arr=[10,20,30,40,50,60,70,80,90,100];
-let arr2=[200,300,400,500,600];
-let arr3 =arr.concat(arr2);
-console.log(arr3);
+// let arr=[10,20,30,40,50,60,70,80,90,100];
+// let arr2=[200,300,400,500,600];
+// let arr3 =arr.concat(arr2);
+// console.log(arr3);
+
+// const arr=["ved" ,"yash","bob","rohit","jordan","bua"];
+// // console.log(arr.toString());
+
+// // console.log(arr.indexOf ("bob"));
+
+// // sorting arrays
+
+// arr.sort();
+// console.log(arr);
+// arr.reverse();
+// console.log(arr);
+
+
+// asceding order
+
+const arr=[10 ,2 ,3, 45 ,60 ,55 ,80 ];
+arr.sort((a ,b)=>a-b);
+console.log(arr);
+
+// Descending order
+
+arr.sort((a,b)=>b-a);
+console.log(arr);
