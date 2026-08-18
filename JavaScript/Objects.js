@@ -37,3 +37,28 @@ console.log(person.city);
 delete person.salary;
 delete person.age;
 console.log(person);
+
+
+const user2 = person;
+user2.age=21;
+console.log(person);
+
+
+console.log(Object.keys(person));
+console.log(Object.values(user2));
+
+for(keys in person){
+    console.log(keys);
+    console.log(keys +":"+[person[keys]]);
+}
+
+
+// const name =person.name;
+// const gender = person.gender;
+// console.log(name,gender);
+//  write this in a standerd way like this:
+
+// object destructuring
+const {name,gender,email}= person;
+console.log(name,gender,email);
+
