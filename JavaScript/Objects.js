@@ -64,21 +64,35 @@
 
 
 // you can also create a function in obejct 
-const person={
-    name:"ved",
-    age:21,
-    city:"shahapur",
-    email:"ved@gmail.com",
+// const person={
+//     name:"ved",
+//     age:21,
+//     city:"shahapur",
+//     email:"ved@gmail.com",
 
-    hello: function(){
-        console.log("hello my name is"+this.name);
-        return this.age;
+//     hello: function(){
+//         console.log("hello my name is"+this.name);
+//         return this.age;
+//     }
+// }
+
+
+// const result = person.hello();
+// console.log(result);
+
+
+// Nested objects
+
+const student={
+    name:"ved",
+    age:22,
+    gender:"male",
+    addres:{
+        village:"Mugaon",
+        tal:"shahpur",
+        dist:"thane"
     }
 }
-
-
-const result = person.hello();
-console.log(result);
-
+console.log(student.addres.village);
 
 
