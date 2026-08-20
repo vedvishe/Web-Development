@@ -95,4 +95,22 @@ const student={
 }
 console.log(student.addres.village);
 
+const user2 =student ;
+user2.name="rohit";
+console.log(student);
 
+//  making independant copy of object
+
+const user3 ={...student};
+user3.name="yash";
+console.log(student,user3);
+
+user3.addres.village="kinhavali";
+console.log(student.addres);
+
+// it helps in making independant copy of object but it will not work for nested objects
+
+
+
+
+//  done with the objects in Javasscript 
